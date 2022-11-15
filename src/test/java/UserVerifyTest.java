@@ -1,14 +1,14 @@
-import Data.DataHelper;
-import Data.DbUtils;
-import Page.DashBoardPage;
-import Page.LoginPage;
-import Page.VerificationPage;
+import data.DataHelper;
+import data.DbUtils;
+import page.DashBoardPage;
+import page.LoginPage;
+import page.VerificationPage;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static Data.DbUtils.cleanDB;
+import static data.DbUtils.cleanDB;
 import static com.codeborne.selenide.Selenide.open;
 
 public class UserVerifyTest {

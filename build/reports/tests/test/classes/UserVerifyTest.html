@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">14.197s</div>
+<div class="counter">16.186s</div>
 <p>duration</p>
 </div>
 </td>
@@ -77,10 +77,10 @@
 <h3 class="failures">shouldUnSuccessInvalidPassword3TimesTest()</h3>
 <span class="code">
 <pre>Element should not be visible {By.xpath: //*[@data-test-id='action-login']}
-Element: '&lt;button class=&quot;button button_view_extra button_size_m button_hovered button_theme_alfa-on-white&quot; data-test-id=&quot;action-login&quot; role=&quot;button&quot; type=&quot;button&quot; value&gt; Продолжить&lt;/button&gt;'
+Element: '&lt;button class=&quot;button button_view_extra button_size_m button_theme_alfa-on-white&quot; data-test-id=&quot;action-login&quot; role=&quot;button&quot; type=&quot;button&quot; value&gt; Продолжить&lt;/button&gt;'
 Actual value: visible:true
-Screenshot: file:/D:/Program%20Files/JetBrains1,2/sql/build/reports/tests/1668343893587.0.png
-Page source: file:/D:/Program%20Files/JetBrains1,2/sql/build/reports/tests/1668343893587.0.html
+Screenshot: file:/D:/Program%20Files/JetBrains1,2/sql/build/reports/tests/1668516454670.0.png
+Page source: file:/D:/Program%20Files/JetBrains1,2/sql/build/reports/tests/1668516454670.0.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:118)
 	at com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
@@ -89,7 +89,7 @@ Timeout: 4 s.
 	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:128)
 	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:80)
 	at com.sun.proxy.$Proxy13.shouldNotBe(Unknown Source)
-	at Page.LoginPage.blockedUser(LoginPage.java:34)
+	at page.LoginPage.blockedUser(LoginPage.java:34)
 	at UserVerifyTest.shouldUnSuccessInvalidPassword3TimesTest(UserVerifyTest.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -190,22 +190,22 @@ Timeout: 4 s.
 </thead>
 <tr>
 <td class="success">shouldSuccessTestDataTest()</td>
-<td class="success">1.680s</td>
+<td class="success">1.675s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">shouldUnSuccessInvalidPassword3TimesTest()</td>
-<td class="failures">9.860s</td>
+<td class="failures">11.663s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">shouldUnSuccessRandomDataTest()</td>
-<td class="success">1.420s</td>
+<td class="success">1.621s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">shouldUnSuccessRandomVerificationTest()</td>
-<td class="success">1.237s</td>
+<td class="success">1.227s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -214,21 +214,21 @@ Timeout: 4 s.
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\Program Files\JetBrains1,2\sql\build\downloads\1668343883996_17384_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\Program Files\JetBrains1,2\sql\build\downloads\1668516443278_6268_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\007\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
-Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 10767
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 17360
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-ноя 13, 2022 3:51:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ноя 15, 2022 3:47:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1366x768
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=107.0.5304.107 Platform=WINDOWS
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.19.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -&gt; ChromeDriver: chrome on WINDOWS (32adfd8bd20e905ff5d5426d355fe8d8)
-[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 1 -&gt; ChromeDriver: chrome on WINDOWS (32adfd8bd20e905ff5d5426d355fe8d8), null
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -&gt; ChromeDriver: chrome on WINDOWS (b6e27fb8176db9c2311a98cc16363f16)
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - Browser and proxy will stay open due to holdBrowserOpen=true: 1 -&gt; ChromeDriver: chrome on WINDOWS (b6e27fb8176db9c2311a98cc16363f16), null
 </pre>
 </span>
 </div>
@@ -240,7 +240,7 @@ INFO: Detected dialect: W3C
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 13.11.2022 15:51:38</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 15.11.2022 15:47:40</p>
 </div>
 </div>
 </body>
