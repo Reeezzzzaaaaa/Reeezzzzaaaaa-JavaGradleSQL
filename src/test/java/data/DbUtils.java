@@ -2,7 +2,6 @@ package data;
 
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
-import lombok.var;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
@@ -40,7 +39,7 @@ public class DbUtils {
 
         try (var conn = getConn()) {
             var code = runner.query(conn, codeSQL, new ScalarHandler<String>());
-            return code;
+            return String.valueOf(Integer.parseInt(code));
         }
     }
 }

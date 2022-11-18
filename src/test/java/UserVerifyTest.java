@@ -30,7 +30,7 @@ public class UserVerifyTest {
         LoginPage login = new LoginPage();
         login.validLogin(DataHelper.getAuthInfoVasya());
         VerificationPage verify = new VerificationPage();
-        verify.validCode(String.valueOf(DbUtils.getVerificationCode()));
+        verify.validCode(DbUtils.getVerificationCode());
         DashBoardPage dashBoard = new DashBoardPage();
         dashBoard.dashboard();
     }
@@ -49,7 +49,7 @@ public class UserVerifyTest {
         LoginPage login = new LoginPage();
         login.validLogin(DataHelper.getAuthInfoVasya());
         VerificationPage verify = new VerificationPage();
-        verify.validCode(String.valueOf(DataHelper.getRandomVerificationCode()));
+        verify.validCode(DataHelper.getRandomVerificationCode());
     }
 
     @Test
